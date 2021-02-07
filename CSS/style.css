@@ -1,29 +1,35 @@
 
-/* NAVBAR CSS */
-
-h1 {
-    font-family: 'Homemade Apple', cursive;
+body {
+    background-color:rosybrown;
 }
+
+/* NAVBAR CSS */
 
 /* Create a selector that targets our elements with the class of inline-block,  */ 
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    vertical-align:auto;
 };
 
 /* Create a selector that targets our div with the class of logo  */ 
 .logo {
-    width: 20%;
-    height: 10%
+    width: 23%;
+    height: 10px;
     padding: 1%;
     text-align: center;
+    justify-content: right;
+
 }
 
 /* Create a CSS selector that targets our HTML element nav */
 nav {
     width: 73%;
     padding: 1%;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Special Elite', cursive;
+    align-items: center;
+    justify-content: right;
+    
 }
 
 /* Let’s align our unordered list in its container to the right */
@@ -70,4 +76,6 @@ footer.inline-block {
 
 ul {
     justify-content: top;
+    padding-left: 50%;
+    padding-right: 50%;
 }
